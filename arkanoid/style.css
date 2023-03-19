@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    width: min-content;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+#arkanoid {
+    margin-top: 2rem;
+}
+.instruction {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    font-weight: bold;
+    letter-spacing: .125rem;
+    margin-top: 1rem;
+    white-space: pre-line;
+}
+.instruction:first-line {
+    line-height: 0;
+}

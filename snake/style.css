@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main {
+    width: min-content;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+.scoreboard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    font-weight: 500;
+
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+.difficulty {
+    font-size: 1.25rem;
+    font-weight: 500;
+    display: grid;
+    grid-template-columns: min-content 2rem;
+}
+.difficulty > label {
+    padding-right: 1rem;
+}
+.difficulty > input {
+    margin: .1rem;
+}
+.bottom {
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom > a {
+    font-size: 2rem;
+    font-weight: 500;
+}
+.instruction {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-weight: bold;
+    letter-spacing: .125rem;
+    margin-top: 1rem;
+}

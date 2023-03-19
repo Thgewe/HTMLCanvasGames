@@ -3,3 +3,21 @@
     margin: 0;
     padding: 0;
 }
+.main {
+
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+.navigation > a {
+    color: #FF3D00;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: color .3s;
+}
+.navigation > a:hover {
+    color: #FF9E80;
+}
